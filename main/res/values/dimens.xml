@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="m_left">10pt</dimen>
+    <dimen name="txv_size">11pt</dimen>
+    <dimen name="m_top">10dp</dimen>
+    <dimen name="m_right">10pt</dimen>
+</resources>

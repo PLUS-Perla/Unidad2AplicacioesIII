@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="5pt"
+        android:id="@+id/imv_photo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="-2pt"
+        android:layout_marginTop="5pt">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_name"
+            android:text="@string/name"
+            android:textSize="@dimen/title1"
+            android:layout_marginBottom="10pt"
+            android:layout_marginTop="-2pt"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_descripcion"
+            android:text="@string/descripcion"
+            android:layout_marginTop="-9pt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_precio"
+            android:layout_marginTop="15pt"
+            android:text="@string/precio"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
